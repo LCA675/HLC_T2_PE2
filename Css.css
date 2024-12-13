@@ -1,0 +1,76 @@
+.botones {
+    background-color: #85CEF0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 50%;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    background-color: #E2E5E7;
+    align-items: center;
+    font-family: "Klee One", serif;
+}
+.cabecera {
+    display: flex;
+    width: 20%;
+    align-self: flex-start;
+
+}
+.btn1 {
+    width: 300%;
+    border-radius: 6px;
+    border-color: #F8F8FF;
+    padding: 10% 15%;
+    margin-bottom: 10px;
+}
+.btn2 {
+    width: 300%;
+    border-radius: 6px;
+    border-color: #F8F8FF;
+    padding: 10% 15%;
+
+}
+.contenido {
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 3px 2px rgb(124, 124, 124);
+    margin: 10%;
+    align-content: space-between;
+    flex-direction: row;
+    display: inline-block;
+    padding-top: 5%;
+    border-radius: 5px;
+    flex-direction: row;
+    align-content: center;
+}
+.mensaje {
+    width: 90%;
+    height: 80%;
+    border-color: white;
+
+}
+.textarea {
+    width: 80%;
+    display: inline-block;
+    border-color:  #E2E5E7;
+    border-radius: 5px;
+}
+.btn3 {
+    background-color: #F9DC6A;
+    border-radius: 5px;
+    border-color: #F9DC6A;
+    color: black;
+}
+.form2 {
+    background-color: rgb(207, 207, 207);
+    padding: 2px;
+    width: 100%;
+    align-content: center;
+}

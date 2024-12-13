@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Calle Anguita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body>
+    <div class="cabecera">
+        <div class="botones">
+            <button class="btn1" onclick="mostrar()">Mostrar Chat</button>
+            <button class="btn2" onclick="ocultar()">Ocultar Chat</button>
+        </div>
+    </div>
+ 
+
+
+    <div class="contenido">
+        <div class="mensajes">
+            <textarea name="mensaje" id="mensaje" class="mensaje" rows="20"></textarea>
+        </div>
+            <div>
+                <form class="form2">
+                    <textarea name="notas" id="textarea" rows="2" class="textarea"  placeholder="Escribe tu mensaje aquí..." ></textarea>
+                
+        <br>
+            <button id="input"  class="btn3" onclick="añadirMensaje();getRandomMessage()">Enviar</button>
+        </form>
+        </div>
+</div>
+    <script src="javascript.js"></script>
+</body>
+</html>
